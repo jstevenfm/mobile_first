@@ -104,6 +104,7 @@ main {
     overflow-x: scroll;
     overscroll-behavior-x: contain;
     scroll-snap-type: x proximity;
+    margin: 0 auto;
 }
 .main-exchange-container--title {
     width: 90%;
@@ -140,8 +141,8 @@ main {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
     margin: 50px 25px 0 50px;
+    height: 360px;
     scroll-snap-align: center;
     font-family: "Inter", sans-serif;
 }
@@ -213,8 +214,8 @@ main {
     width: 70%;
     min-width: 235px;
     max-width: 500px;
-    height: 360px;
     margin: 50px 50px 0 25px;
+    height: 360px;
     scroll-snap-align: center;
     font-family: "Inter", sans-serif;
 }
