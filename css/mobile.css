@@ -106,6 +106,9 @@ main {
     scroll-snap-type: x proximity;
     margin: 0 auto;
 }
+.main-tables-container::-webkit-scrollbar {
+    display: none;
+}
 .main-exchange-container--title {
     width: 90%;
     min-width: 288px;
